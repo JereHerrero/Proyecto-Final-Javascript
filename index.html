@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <script src="assets/scripts/script.js" defer></script>
+    <title>Conversor de monedas</title>
+</head>
+
+<body>
+
+    <div class="wrapper" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+        <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">Conversor de monedas</h1>
+
+        <form action="#" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+
+            <div class="amount">
+
+                <p>Ingresar monto</p>
+
+                <input type="text" value="1">
+
+            </div>
+
+            <div class="drop-list">
+
+                <div class="from">
+
+                    <p>De:</p>
+
+                    <div class="select-box">
+
+                        <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+
+                        <select>
+
+                            <option value="">Seleccione la moneda...</option>
+                            <option value="EU" class="EUR">Euro</option>
+                            <option value="US" class="USD">Dólar estadounidense</option>
+                            <option value="GB" class="GBP">Libra esterlina</option>
+                            <option value="JP" class="JPY">Yen japonés</option>
+                            <option value="AR" class="ARS">Peso argentino</option>
+                            <option value="AU" class="AUD">Dólar australiano</option>
+                            <option value="BO" class="BOB">Boliviano</option>
+                            <option value="BR" class="BRL">Real brazileño</option>
+                            <option value="CA" class="CAD">Dólar canadiense</option>
+                            <option value="CH" class="CHF">Franco suizo</option>
+                            <option value="CL" class="CLP">Peso chileno</option>
+                            <option value="CO" class="COP">Peso colombiano</option>
+                            <option value="DK" class="DKK">Corona danesa</option>
+                            <option value="IL" class="ILS">Nuevo shékel israelí</option>
+                            <option value="IN" class="INR">Rupia india</option>
+                            <option value="IS" class="ISK">Corona islandesa</option>
+                            <option value="KR" class="KRW">Won surcoreano</option>
+                            <option value="MX" class="MXN">Peso mexicano</option>
+                            <option value="NO" class="NOK">Corona noruega</option>
+                            <option value="NZ" class="NZD">Dólar neozelandés</option>
+                            <option value="PE" class="PEN">Nuevo sol peruano</option>
+                            <option value="PH" class="PHP">Peso filipino</option>
+                            <option value="PY" class="PYG">Guaraní paraguayo</option>
+                            <option value="RU" class="RUB">Rublo ruso</option>
+                            <option value="SE" class="SEK">Corona sueca</option>
+                            <option value="TR" class="TRY">Lira turca</option>
+                            <option value="UY" class="UYU">Peso uruguayo</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+
+                <div class="to">
+
+                    <p>A:</p>
+
+                    <div class="select-box">
+
+                        <img src="https://flagcdn.com/48x36/np.png" alt="flag">
+
+                        <select>
+
+                            <option value="">Seleccione la moneda...</option>
+                            <option value="EU" class="EUR">Euro</option>
+                            <option value="US" class="USD">Dólar estadounidense</option>
+                            <option value="GB" class="GBP">Libra esterlina</option>
+                            <option value="JP" class="JPY">Yen japonés</option>
+                            <option value="AR" class="ARS">Peso argentino</option>
+                            <option value="AU" class="AUD">Dólar australiano</option>
+                            <option value="BO" class="BOB">Boliviano</option>
+                            <option value="BR" class="BRL">Real brazileño</option>
+                            <option value="CA" class="CAD">Dólar canadiense</option>
+                            <option value="CH" class="CHF">Franco suizo</option>
+                            <option value="CL" class="CLP">Peso chileno</option>
+                            <option value="CO" class="COP">Peso colombiano</option>
+                            <option value="DK" class="DKK">Corona danesa</option>
+                            <option value="IL" class="ILS">Nuevo shékel israelí</option>
+                            <option value="IN" class="INR">Rupia india</option>
+                            <option value="IS" class="ISK">Corona islandesa</option>
+                            <option value="KR" class="KRW">Won surcoreano</option>
+                            <option value="MX" class="MXN">Peso mexicano</option>
+                            <option value="NO" class="NOK">Corona noruega</option>
+                            <option value="NZ" class="NZD">Dólar neozelandés</option>
+                            <option value="PE" class="PEN">Nuevo sol peruano</option>
+                            <option value="PH" class="PHP">Peso filipino</option>
+                            <option value="PY" class="PYG">Guaraní paraguayo</option>
+                            <option value="RU" class="RUB">Rublo ruso</option>
+                            <option value="SE" class="SEK">Corona sueca</option>
+                            <option value="TR" class="TRY">Lira turca</option>
+                            <option value="UY" class="UYU">Peso uruguayo</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="exchange-rate">Obteniendo tipo de cambio...</div>
+
+            <button>Obtener tipo de cambio</button>
+
+        </form>
+
+    </div>
+
+    <div class="wrapper-list" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <h1>Historial de conversiones</h1>
+        <ul></ul>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
